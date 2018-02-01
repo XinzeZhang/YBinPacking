@@ -48,7 +48,7 @@ public class Controller {
      */
     @FXML
     public void initialize(){
-    	mainlayoutInit();
+//    	mainlayoutInit();
         modelComposite.add(binTreesWrapper);
         modelComposite.add(boxesWrapper);
         subSceneInit();
@@ -60,10 +60,10 @@ public class Controller {
     
     @FXML
     private GridPane mainLayout;
-    private void mainlayoutInit(){
-    	mainLayout.setMinSize(1366.0, 768.0);
-    	mainLayout.setPrefSize(1366.0, 768.0);
-    }
+//    private void mainlayoutInit(){
+//    	mainLayout.setMinSize(1366.0, 768.0);
+//    	mainLayout.setPrefSize(1366.0, 768.0);
+//    }
     
     @FXML
     private BinScene binScene;

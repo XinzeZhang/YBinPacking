@@ -35,7 +35,7 @@ public class Main extends Application{
     }
 
     private void setStage(Stage primaryStage, Scene scene){
-        primaryStage.setTitle("XBinPacking");
+        primaryStage.setTitle("YBinPacking");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
